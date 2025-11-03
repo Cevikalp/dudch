@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Aug  9 21:03:27 2021
 
-@author: hasan
+
+@author: hakan
 """
 import datetime
 import os
