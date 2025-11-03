@@ -17,7 +17,7 @@ import torch.backends.cudnn as cudnn
 import torchvision.transforms as tf
 import numpy as np
 
-from loss.dchs import dchs_loss, NirvanaOpenset_loss, nirvana_hypersphere
+from modules.dchs import dchs_loss, NirvanaOpenset_loss, nirvana_hypersphere
 from models.models import classifier32
 from models.resnet import resnet50
 from datasets.osr_dataloader import Random300K_Images, MNIST_OSR, CIFAR10_OSR, CIFAR100_OSR, SVHN_OSR, Tiny_ImageNet_OSR
