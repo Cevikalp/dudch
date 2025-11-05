@@ -74,3 +74,6 @@ positioned according to visual and semantic characteristics. Typically, semantic
 or automobile and truck—are located near each other. In some cases, classes that are visually similar, such as airplane and
 ship or horse and dog, also have centers that are closely positioned.
 
+# Contact
+If you have any question about our work, please do not hesitate to contact us by email hakan.cevikalp@gmail.com.
+
