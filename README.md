@@ -28,3 +28,19 @@ In face recognition methods such as CosFace and ArcFace, where both features and
 and unknown samples tend to overlap, making it difficult to distinguish and reject the unknowns (left side of the figure). In
 contrast, our method avoids feature normalization of class samples, which allows unknown samples to be more easily separated
 based on their Euclidean distances to the learned class centers (right side of the figure).
+# 1. Requirements
+## Environments
+Following packages are required for this repo.
+
+    - python 3.8+
+    - torch  2.4+
+    - torchvision 0.19+ 
+    - torch 1.9+
+    - CUDA 12.1+
+    - cython 3.1+
+    - scikit-learn 1.3+
+    - numpy 1.24+
+    - tqdm 4.67.1
+    - bcolz 1.2.1  
+    - matplotlib 3.7.5   
+
