@@ -55,3 +55,12 @@ Following packages are required for this repo.
 - Just use **'main_cifar_hypersphere.py'** to train the network for Cifar100 and Cifar10 datasets. The dataset must be under **data** folder, the code will downlaod the datasets. Use **'main_mnist_hypersphere.py'** to train the network for Mnist dataset.
 ## Experiments on Imbalanced Dataset
 - Just use **'main_cifar_imbalaced_hypersphere.py'** to train the network on Cifar10-LT. You can change the ibalance ratio by changing the line  163 in the code, e.g., imbalance_ratio=0.01, sets the imbalance ratio to 0.01.
+# 3. Results
+### The learned feature embeddings:
+<img width="1210" height="607" alt="figure_embeddings" src="https://github.com/user-attachments/assets/aef1efe3-99af-411b-91c4-ae8bd85ea5f4" />
+The outputs of the deep neural network classifiers trained by using the proposed loss functions for 3, 5 and 10 classes.
+The first row shows the embedding obtained by DUDCH-U1 classifier and the embeddings shown in the second row are obtained
+by using DUDCH-U2. For both cases, the class centers are uniformly distributed on the boundary of the hypersphere, and the
+class-specific samples compactly cluster in the vicinity of their class centers.
+
+
