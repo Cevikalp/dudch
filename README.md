@@ -46,7 +46,7 @@ Following packages are required for this repo.
 
 # 2. Training & Evaluation
 ## Synthetic Experiments
-- For synthetic experiments, simply run **'main_nirvana_hypersphere_3_class.py'** to create the embedding by using 3 classes and run **'main_nirvana_hypersphere_10class.py'** to create the embedding by using 10 classes. The classes will be chosen from the cifar10 dataset.
+- For synthetic experiments, simply run **'main_nirvana_hypersphere_3_class.py'** to create the embeddings by using 3 classes and run **'main_nirvana_hypersphere_10class.py'** to create the embeddings by using 10 classes. The classes will be chosen from the Cifar10 dataset.
    Tey will produce the figures used in Fig. 2 given in the paper. To create embeddings for different number of classes, just change the line 173 in the code. For examle  dataset = CIFAR10_OSR(known=[0, 1, 2, 3], batch_size=args.batch_size, use_gpu=True)  will use 4 classes,
    dataset = CIFAR10_OSR(known=[0, 1, 2, 3, 4], batch_size=args.batch_size, use_gpu=True) will use 5 classes, so on.
 ## Open Set Recognition
