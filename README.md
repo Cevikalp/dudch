@@ -67,3 +67,10 @@ class-specific samples compactly cluster in the vicinity of their class centers.
 
 **Fig 3.** Embeddings of the class samples for different κ values. Setting κ parameter to larger values returned more uniform
 distributions.
+<img width="834" height="779" alt="figure_semantic" src="https://github.com/user-attachments/assets/1f4b835f-d11d-44f8-af59-7a255acd4682" />
+
+**Fig 4.**  The distance matrix is computed using the centers of the training classes. These hypersphere centers are
+positioned according to visual and semantic characteristics. Typically, semantically related classes—such as cat and dog,
+or automobile and truck—are located near each other. In some cases, classes that are visually similar, such as airplane and
+ship or horse and dog, also have centers that are closely positioned.
+
