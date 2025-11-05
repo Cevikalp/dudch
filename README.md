@@ -58,9 +58,10 @@ Following packages are required for this repo.
 # 3. Results
 ### The learned feature embeddings:
 <img width="1210" height="607" alt="figure_embeddings" src="https://github.com/user-attachments/assets/aef1efe3-99af-411b-91c4-ae8bd85ea5f4" />
-The outputs of the deep neural network classifiers trained by using the proposed loss functions for 3, 5 and 10 classes.
+**Fig 2.** The outputs of the deep neural network classifiers trained by using the proposed loss functions for 3, 5 and 10 classes.
 The first row shows the embedding obtained by DUDCH-U1 classifier and the embeddings shown in the second row are obtained
 by using DUDCH-U2. For both cases, the class centers are uniformly distributed on the boundary of the hypersphere, and the
 class-specific samples compactly cluster in the vicinity of their class centers.
-
-
+<img width="1491" height="431" alt="figure_uniformity_loss" src="https://github.com/user-attachments/assets/a239bb2f-d99c-4393-98c1-c16b52eb6547" />
+**Fig 3.** Embeddings of the class samples for different κ values. Setting κ parameter to larger values returned more uniform
+distributions.
