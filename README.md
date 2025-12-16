@@ -74,6 +74,17 @@ positioned according to visual and semantic characteristics. Typically, semantic
 or automobile and truck—are located near each other. In some cases, classes that are visually similar, such as airplane and
 ship or horse and dog, also have centers that are closely positioned.
 
+## Citation
+```bibtex
+@article{cevikalp2025,
+  author    = {Hakan Cevikalp and Hasan Serhan Yavuz},
+  title     = {Learning Uniform Hyperspherical Centers for Open and Closed Set Recognition},
+  pages = {200114-200124},
+  journal = {IEEE Access},
+  volume = {13},
+  year      = {2025},
+}
+
 # Contact
 If you have any question about our work, please do not hesitate to contact us by email hakan.cevikalp@gmail.com.
 
